@@ -22,13 +22,13 @@ const Users = () => {
                     </Link>
                     <hr className="pb-8"/>
 
-                    <table className="table-auto">
+                    <table className="table">
                         <thead>
                             <tr>
-                                <td>Name</td>
-                                <td>Email</td>
-                                <td>Age</td>
-                                <td>Action</td>
+                                <th>Name</th>
+                                <th>Email</th>
+                                <th>Age</th>
+                                <th>Action</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -39,6 +39,9 @@ const Users = () => {
                                             <td>{user.Name}</td>
                                             <td>{user.Email}</td>
                                             <td>{user.Age}</td>
+                                            <td>
+                                                <button className="bg-blue-500 duration-500 hover:bg-blue-700 text-white px-8 py-2 rounded">Edit</button>
+                                            </td>
                                         </tr>
                                     )
                                 })
