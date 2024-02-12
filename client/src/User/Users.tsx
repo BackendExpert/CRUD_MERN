@@ -32,7 +32,15 @@ const Users = () => {
                             </tr>
                         </thead>
                         <tbody>
-                            
+                            {
+                                users.map((user) => {
+                                    return (
+                                        <tr>
+                                            <td>{}</td>
+                                        </tr>
+                                    )
+                                })
+                            }
                         </tbody>
                     </table>
                 </div>
