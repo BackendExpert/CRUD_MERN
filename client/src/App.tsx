@@ -7,7 +7,7 @@ export default function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/User" element={<Users />}></Route>
+        <Route path="/Users" element={<Users />}></Route>
         <Route path="/User/create" element={<CreateUser />}></Route>
         <Route path="/User/update" element={<UpdateUser />}></Route>
       </Routes>

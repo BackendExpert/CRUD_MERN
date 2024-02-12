@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom"
+
 
 const CreateUser = () => {
   return (
@@ -7,6 +9,7 @@ const CreateUser = () => {
                 <div className="px-8 py-8 bg-white rounded">
                     <p className="text-xl font-semibold">Add New User</p>
                     <hr className="mb-8" />
+                    <Link to={'/Users'}>Back</Link>
 
                     <form>
                         <div className="my-4 mx-6">
