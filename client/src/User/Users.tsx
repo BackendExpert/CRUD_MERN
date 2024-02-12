@@ -2,7 +2,6 @@ import IonIcon from "@reacticons/ionicons"
 import { useState } from "react"
 import { Link } from "react-router-dom"
 
-
 const Users = () => {
     const [users, SetUser] = useState([{
         Name: "Jehan", Email: "jehan123@123", Age: 23
@@ -40,6 +39,7 @@ const Users = () => {
                                             <td>{user.Email}</td>
                                             <td className="px-12">{user.Age}</td>
                                             <td>
+                                                <Link to={}></Link>
                                                 <button className="bg-blue-500 duration-500 hover:bg-blue-700 text-white px-8 py-2 rounded">Edit</button>
                                             </td>
                                         </tr>
