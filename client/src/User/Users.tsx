@@ -25,10 +25,10 @@ const Users = () => {
                     <table className="table">
                         <thead>
                             <tr>
-                                <th>Name</th>
-                                <th>Email</th>
-                                <th>Age</th>
-                                <th>Action</th>
+                                <th className="px-8">Name</th>
+                                <th className="px-8">Email</th>
+                                <th className="px-8">Age</th>
+                                <th className="px-8">Action</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -38,7 +38,7 @@ const Users = () => {
                                         <tr>
                                             <td>{user.Name}</td>
                                             <td>{user.Email}</td>
-                                            <td>{user.Age}</td>
+                                            <td className="px-12">{user.Age}</td>
                                             <td>
                                                 <button className="bg-blue-500 duration-500 hover:bg-blue-700 text-white px-8 py-2 rounded">Edit</button>
                                             </td>
