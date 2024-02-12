@@ -37,8 +37,8 @@ const Users = () => {
                                     return (
                                         <tr>
                                             <td>{user.Name}</td>
-                                            <td>{user.Name}</td>
-                                            <td>{user.Name}</td>
+                                            <td>{user.Email}</td>
+                                            <td>{user.Age}</td>
                                         </tr>
                                     )
                                 })
