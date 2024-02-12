@@ -11,7 +11,7 @@ const Users = () => {
                     <p className="text-2xl font-semibold">Users</p>
                     <Link to={'/User/create'}>
                         <div className="">
-                            <p className=""><IonIcon name="plus"</p>
+                            <p className=""><IonIcon name="add"></IonIcon></p>
                         </div>
                     </Link>
                     <hr className="pb-8"/>
