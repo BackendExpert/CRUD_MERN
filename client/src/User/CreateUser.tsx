@@ -22,7 +22,7 @@ const CreateUser = () => {
                             <input type="number" name="" id="" className="w-full h-12 border border-gray-300 rounded"/>
                         </div>
 
-                        <button className="bg-green-500">Add New User</button>
+                        <button className="rounded bg-green-600 duration-500 hover:bg-green-800 text-white px-4 py-2">Add New User</button>
                     </form>
                 </div>
             </div>
