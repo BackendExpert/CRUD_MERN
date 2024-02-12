@@ -10,7 +10,7 @@ const Users = () => {
                 <div className="px-12 py-8 bg-white rounded">
                     <p className="text-2xl font-semibold">Users</p>
                     <Link to={'/User/create'}>
-                        <div className="">
+                        <div className="bg-green-600 w-[14%] px-8 text-white">
                             <p className=""><IonIcon name="add"></IonIcon></p>
                             <p className="">Add New User</p>
                         </div>
