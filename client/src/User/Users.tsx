@@ -1,8 +1,13 @@
 import IonIcon from "@reacticons/ionicons"
+import { useState } from "react"
 import { Link } from "react-router-dom"
 
 
 const Users = () => {
+    const [users, SetUser] = useState([{
+        Name: "Jehan", Email: "jehan123@123", Age: 23
+    }])
+
   return (
     <div className="bg-blue-500 h-screen w-full">
         <div className="container mx-auto px-10">
