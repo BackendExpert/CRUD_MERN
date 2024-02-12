@@ -10,8 +10,16 @@ const CreateUser = () => {
 
                     <form>
                         <div className="my-4 mx-6">
-                            <label htmlFor="">Username : </label>
-                            <input type="text" name="" id="" className="w-full h-12"/>
+                            <label htmlFor="">Name : </label>
+                            <input type="text" name="" id="" className="w-full h-12 border border-gray-300 rounded"/>
+                        </div>
+                        <div className="my-4 mx-6">
+                            <label htmlFor="">Email : </label>
+                            <input type="email" name="" id="" className="w-full h-12 border border-gray-300 rounded"/>
+                        </div>
+                        <div className="my-4 mx-6">
+                            <label htmlFor="">Ages : </label>
+                            <input type="number" name="" id="" className="w-full h-12 border border-gray-300 rounded"/>
                         </div>
                     </form>
                 </div>
