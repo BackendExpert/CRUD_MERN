@@ -14,6 +14,7 @@ const Users = () => {
                                 <td>Name</td>
                                 <td>Email</td>
                                 <td>Age</td>
+                                <td>Action</td>
                             </tr>
                         </thead>
                         <tbody>
