@@ -10,9 +10,9 @@ const Users = () => {
                 <div className="px-12 py-8 bg-white rounded">
                     <p className="text-2xl font-semibold">Users</p>
                     <Link to={'/User/create'}>
-                        <div className="bg-green-600 w-[14%] px-8 text-white">
-                            <p className=""><IonIcon name="add"></IonIcon></p>
-                            <p className="">Add New User</p>
+                        <div className="mb-2 rounded duration-500 bg-green-600 hover:bg-green-700 w-[18%] px-8 text-white font-semibold flex py-2 text-xl">
+                            <p className=""><IonIcon name="add" size="large"></IonIcon></p>
+                            <p className="pt-2">Add New User</p>
                         </div>
                     </Link>
                     <hr className="pb-8"/>
