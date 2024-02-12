@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom"
+
 
 const Users = () => {
   return (
@@ -6,6 +8,11 @@ const Users = () => {
             <div className="pt-10 h-auto">
                 <div className="px-12 py-8 bg-white rounded">
                     <p className="text-2xl font-semibold">Users</p>
+                    <Link to={'/User/create'}>
+                        <div className="">
+                            
+                        </div>
+                    </Link>
                     <hr className="pb-8"/>
 
                     <table className="table-auto">
