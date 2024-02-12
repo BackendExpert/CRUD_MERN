@@ -12,6 +12,7 @@ const Users = () => {
                     <Link to={'/User/create'}>
                         <div className="">
                             <p className=""><IonIcon name="add"></IonIcon></p>
+                            <p className="">Add New User</p>
                         </div>
                     </Link>
                     <hr className="pb-8"/>
