@@ -1,3 +1,4 @@
+import IonIcon from "@reacticons/ionicons"
 import { Link } from "react-router-dom"
 
 
@@ -10,7 +11,7 @@ const Users = () => {
                     <p className="text-2xl font-semibold">Users</p>
                     <Link to={'/User/create'}>
                         <div className="">
-                            
+                            <p className=""><IonIcon name="plus"</p>
                         </div>
                     </Link>
                     <hr className="pb-8"/>
