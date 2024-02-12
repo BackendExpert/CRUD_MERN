@@ -10,7 +10,7 @@ const CreateUser = () => {
                     <p className="text-xl font-semibold">Add New User</p>
                     <hr className="mb-8" />
                     <Link to={'/Users'}>
-                        <span className="bg-blue-500 duration-500 hover:bg-blue-600 text-white">Back</span>
+                        <span className="bg-blue-500 duration-500 hover:bg-blue-600 text-white px-8 py-2 rounded">Back</span>
                     </Link>
 
                     <form>
