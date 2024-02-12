@@ -36,7 +36,9 @@ const Users = () => {
                                 users.map((user) => {
                                     return (
                                         <tr>
-                                            <td>{}</td>
+                                            <td>{user.Name}</td>
+                                            <td>{user.Name}</td>
+                                            <td>{user.Name}</td>
                                         </tr>
                                     )
                                 })
