@@ -8,7 +8,7 @@ const Users = () => {
                     <p className="text-2xl font-semibold">Users</p>
                     <hr className="pb-8"/>
 
-                    <table className="table-fixed">
+                    <table className="table-auto">
                         <thead>
                             <tr>
                                 <td>Name</td>
